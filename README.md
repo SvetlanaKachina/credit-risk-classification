@@ -46,3 +46,11 @@ Logistic Regression Model
 + Class 1 (high-risk loan): 0.91
 + F1-Score:
 + Class 0: 1.00
++ Class 1: 0.88
+### Summary ###
+The logistic regression model performs very well overall, especially in identifying healthy loans with near-perfect precision and recall. The model also performs strongly in predicting high-risk loans, achieving a precision of 85% and a recall of 91%, which is commendable given the likely imbalance in the dataset.
+
+### Recommendation: ###
+I recommend using this logistic regression model, particularly because it maintains high recall for identifying high-risk loans (1). In financial contexts, recall for high-risk loans can be crucial, as failing to identify a risky loan could have costly implications. However, the model also maintains excellent performance for healthy loans, making it well-rounded.
+
+While no model is perfect, this logistic regression provides a strong baseline for credit risk assessment. Future work could explore balancing the dataset or testing other models (e.g., decision trees or ensemble methods) to further improve performance for high-risk loans.
